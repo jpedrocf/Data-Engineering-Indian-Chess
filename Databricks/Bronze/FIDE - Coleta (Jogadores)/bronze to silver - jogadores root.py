@@ -207,4 +207,4 @@ display(players_df_final)
 
 # COMMAND ----------
 
-players_df_final.write.mode('overwrite').saveAsTable('silver.players')
+players_df_final.write.mode('overwrite').saveAsTable('silver.players_colunas')
