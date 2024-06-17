@@ -58,7 +58,7 @@ def count_substitution(title, sex):
         substitution_counter.add(1)
     return title
 
-count_substitution_udf = udf(count_substitution, IntegerType())
+count_substitution_udf = udf(count_substitution, StringType())
 
 # Aplicar as substituições e contar
 players_transform_type = player_com_date.withColumn(
@@ -75,11 +75,12 @@ players_transform_type = players_transform_type.withColumn(
     'title', count_substitution_udf(col('title'), col('sex'))
 )
 
-# Mostrar o DataFrame resultante
-players_transform_type.show()
-
 # Mostrar o contador de substituições
 print(f"Total de substituições: {substitution_counter.value}")
+
+# COMMAND ----------
+
+display(players_transform_type)
 
 # COMMAND ----------
 
@@ -102,7 +103,7 @@ def count_substitution(title, sex):
         substitution_counter2.add(1)
     return title
 
-count_substitution_udf2 = udf(count_substitution, IntegerType())
+count_substitution_udf2 = udf(count_substitution, StringType())
 
 # Aplicar as substituições e contar
 players_transform_type = players_transform_type.withColumn(
@@ -202,4 +203,8 @@ players_df_final.printSchema()
 
 # COMMAND ----------
 
-players_df_final.write.mode('overwrite').saveAsTable('silver.players_colunas')
+display(players_df_final)
+
+# COMMAND ----------
+
+players_df_final.write.mode('overwrite').saveAsTable('silver.players')
