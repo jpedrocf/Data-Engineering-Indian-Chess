@@ -150,7 +150,7 @@
 |--|--|--|
 |country|string|Federation, country, nationality (3 characters)|
 |average_rating|float|Average rating of the WGM players of each country, in the current month|
-|players|string|WGM title count|
+|players|string|WGM title count of active players (flag == null)|
 
 
 **gold.M_20_average_rating_by_country Catalog**
@@ -173,6 +173,29 @@
 |--|--|--|
 |country|string|Federation, country, nationality (3 characters)|
 |average_rating|float|Average rating of the GM players of each country, in the current month|
-|players|string|GM title count|
+|players|string|GM title count of active players (flag == null)|
 
 
+**gold.M_top10_average_rating_by_country**
+|Column Name|Type|Comment|
+|--|--|--|
+|country|string|Federation, country, nationality (3 characters)|
+|average_rating|float|Average rating of the top 10 male players of each country, in the current month|
+
+
+**gold.mix_fed_rank_evolution**
+|Column Name|Type|Comment|
+|--|--|--|
+|country|string|Federation, country, nationality (3 characters)|
+|rating_date|date|The reference date for the rating and ranking|
+|average_rating|double|Average rating of the top 10 players (male and female together) of each country|
+|rank|int|Ranking position for the reference month|
+
+
+**gold.mix_IND_rank_evolution**
+|Column Name|Type|Comment|
+|--|--|--|
+|country|string|Federation, country, nationality (3 characters), just IND|
+|rating_date|date|The reference date for the rating and ranking|
+|average_rating|double|Average rating of the top 10 players (male and female together) of IND|
+|rank|int|Ranking position for the reference month|
