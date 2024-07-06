@@ -199,3 +199,21 @@
 |rating_date|date|The reference date for the rating and ranking|
 |average_rating|double|Average rating of the top 10 players (male and female together) of IND|
 |rank|int|Ranking position for the reference month|
+
+
+**gold.IND_most_ef_openings**
+|Column Name|Type|Comment|
+|--|--|--|
+|opening|string|Name of the opening (sequence of initial moves in chess)|
+|victory_count_ind|int|Victory count of the opening, for IND|
+|percentage_ind|double|Victory percentage of the opening, for IND|
+
+
+**gold.IND_world_comp_openings**
+|Column Name|Type|Comment|
+|--|--|--|
+|opening|string|Name of the opening (sequence of initial moves in chess)|
+|victory_count_world|int|Victory count of the opening, for all players|
+|victory_count_ind|int|Victory count of the opening, for IND|
+|percentage_world|double|Victory percentage of the opening, for all players|
+|percentage_ind|double|Victory percentage of the opening, for IND|
