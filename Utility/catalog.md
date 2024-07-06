@@ -1,3 +1,5 @@
+# Data Catalog
+
 **bronze.players_complete Catalog**
 |Column Name|Type|Comment|
 |--|--|--|
@@ -121,30 +123,56 @@
 |file_name|string|Name of the file from which data was collected|
 |data_coleta|timestamp|Timestamp when the data was collected|
 
-%md
+
 **gold.F_20_average_rating_by_country Catalog**
 |Column Name|Type|Comment|
 |--|--|--|
 |date_id_pk|string|Federation, country, nationality (3 characters)|
-|country|double|Average rating of the top 10 female players of each country|
+|country|double|Average rating of the top 10 female players of each country, in the current month|
+
 
 **gold.F_2300_rated_players_per_country**
 |Column Name|Type|Comment|
 |--|--|--|
 |country|string|Federation, country, nationality (3 characters)|
-|player_count|int|Count of female players with a rating above 2300|
+|player_count|int|Count of female players with a rating above 2300, in the current month|
 
 
 **gold.f_top10_average_rating_by_country**
 |Column Name|Type|Comment|
 |--|--|--|
 |country|string|Federation, country, nationality (3 characters)|
-|average_rating|float|Average rating of the top 10 female players of each country|
+|average_rating|float|Average rating of the top 10 female players of each country, in the current month|
 
 
 **gold.f_WGM_average_rating_by_country**
 |Column Name|Type|Comment|
 |--|--|--|
 |country|string|Federation, country, nationality (3 characters)|
-|average_rating|float|Average rating of the WGM players of each country|
+|average_rating|float|Average rating of the WGM players of each country, in the current month|
 |players|string|WGM title count|
+
+
+**gold.M_20_average_rating_by_country Catalog**
+|Column Name|Type|Comment|
+|--|--|--|
+|date_id_pk|string|Federation, country, nationality (3 characters)|
+|country|double|Average rating of the top 10 male players of each country, in the current month|
+
+
+%md
+**gold.M_2600_rated_players_per_country**
+|Column Name|Type|Comment|
+|--|--|--|
+|country|string|Federation, country, nationality (3 characters)|
+|player_count|int|Count of male players with a rating above 2600, in the current month|
+
+
+**gold.M_GM_average_rating_by_country**
+|Column Name|Type|Comment|
+|--|--|--|
+|country|string|Federation, country, nationality (3 characters)|
+|average_rating|float|Average rating of the GM players of each country, in the current month|
+|players|string|GM title count|
+
+
