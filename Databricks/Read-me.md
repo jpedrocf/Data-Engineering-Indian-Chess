@@ -15,7 +15,7 @@ The "The Week in Chess" platform provided me with recent championship data playe
 
 These data were processed by a [Python script that aggregated all the files saved in a internal folder into a single table](https://github.com/jpedrocf/ProjetoMVPBancodeDados/blob/main/Databricks/Utilit%C3%A1rio/Games%20Aggregator.py). I also added a unique identifier for each match.
 
-After merging the match and player files, I uploaded the tables to Databricks and placed them in internally created schemas. The schemas I created were Bronze, Silver, and Gold to use the layered data architecture (medallion).
+After merging the match and player files, I uploaded the tables to Databricks and placed them in internally [created schemas](https://github.com/jpedrocf/ProjetoMVPBancodeDados/blob/main/Databricks/Utilit%C3%A1rio/create%20schema.py). The schemas I created were Bronze, Silver, and Gold to use the layered data architecture (medallion).
 
 Both the matches and the players were placed in the Bronze schema to go through the ETL process.
 
