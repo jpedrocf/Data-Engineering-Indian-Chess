@@ -29,6 +29,13 @@ With the tables created in the Gold database, I answer the questions posed at th
 
 - **Is India a chess powerhouse?**
 
+Looking at players under 20 years old (promising players) by federation, we have this result for [male](https://imgur.com/kUMp0ee) and [female](https://imgur.com/1qmfPU6) categories, with India being the leading federation in both, having the highest average rating. Here we can see the notebooks about each one [Male under 20](https://github.com/jpedrocf/ProjetoMVPBancodeDados/blob/main/Databricks/2.%20Silver%20to%20Gold/FIDE%20-%20Players/Male/silver%20to%20gold%20-%20%3C20%20avg.%20rating.py) and [Female under 20](https://github.com/jpedrocf/ProjetoMVPBancodeDados/blob/main/Databricks/2.%20Silver%20to%20Gold/FIDE%20-%20Players/Female/silver%20to%20gold%20-%20%3C20%20avg.%20rating.py)
+
+
+
+
+
+
 
 - **Is there an evolution in Indian chess?**
 
