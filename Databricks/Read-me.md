@@ -1,12 +1,13 @@
 # **MVP Project**
 ## 
-## The objective of this MVP is to check the evolution of chess in India.
-## The questions I want to answer are:
+## Introduction.
+This study focuses on examining the evolution of chess in India, aiming to provide a comprehensive overview of its development and current status. Over the years, India has produced numerous skilled chess players, contributing significantly to the global chess community. This research will delve into the historical progression and contemporary advancements of chess in India, highlighting key milestones and influential figures.
 
-- **Is India a chess powerhouse?**
-- **Is there an evolution in Indian chess?**
-- **What are the most successful openings in Indian chess compared to the rest of the world?**
+Additionally, the study will analyze the patterns and trends in chess openings favored by Indian players compared to those preferred globally. By investigating the strategies and techniques that have emerged from India, the research will offer insights into the unique aspects of Indian chess and its contributions to the broader chess landscape.
 
+Through a detailed examination of these elements, this study seeks to understand India's role and impact in the world of chess, providing a nuanced perspective on its journey from historical roots to modern-day prominence.
+
+## Workflow.
 To answer these questions, I gathered data from the [FIDE website](https://www.fide.com/), which is the International Chess Federation, and from the daily chess newspaper called "[The Week in Chess](https://theweekinchess.com/twic)".
 
 On the FIDE platform, I downloaded 113 files related to chess players for the period from February 2015 to June 2024. Among these data are the personal ID of each player (FIDE ID), the player's name, nationality, gender, titles won, ratings, year of birth, and a flag indicating whether the player is active or inactive. The files, when downloaded, had a standard name, where from index 9 to 14 contained the month and year corresponding to the table. All files were in XML format. To optimize, I created an [XML to Parquet converter](https://github.com/jpedrocf/ProjetoMVPBancodeDados/blob/main/Databricks/Utilit%C3%A1rio/XML%20to%20parquet.gzip.py) that read all the files saved in the folder and converted them to Parquet into a single table. This same code also created two new columns, one containing the name of the file itself and another containing the download date.
