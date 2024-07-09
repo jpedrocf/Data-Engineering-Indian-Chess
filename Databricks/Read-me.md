@@ -26,7 +26,6 @@ After performing the ETL process, I saved the created DataFrame in the Silver da
 
 After creating all the tables, I made a [data catalog](https://github.com/jpedrocf/ProjetoMVPBancodeDados/blob/main/Databricks/Utilit%C3%A1rio/Data%20Catalog.md) in markdown format, using SQL to comment on the tables and also did a [Pipeline](https://imgur.com/BocNZzN) (also did a [JSON version](https://github.com/jpedrocf/ProjetoMVPBancodeDados/blob/main/Databricks/Utilit%C3%A1rio/Pipeline%20-%20JSON.json)) to automatic update all tables, everytime i input new data.
 
-With the tables created in the Gold database, I answer the questions posed at the beginning of this MVP.
 
 ## Questions
 
