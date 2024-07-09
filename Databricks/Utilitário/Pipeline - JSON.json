@@ -1,5 +1,5 @@
 {
-  "job_id": 25135500212846,
+  "job_id": -,
   "creator_user_name": "jpedropuc@gmail.com",
   "run_as_user_name": "jpedropuc@gmail.com",
   "run_as_owner": true,
@@ -19,7 +19,7 @@
           "notebook_path": "/Repos/jpedropuc@gmail.com/ProjetoMVPBancodeDados/Databricks/1. Bronze to Silver/TWIC - Games/bronze to silver - games root",
           "source": "WORKSPACE"
         },
-        "existing_cluster_id": "0613-232255-noxfkz06",
+        "existing_cluster_id": "-",
         "timeout_seconds": 0,
         "email_notifications": {},
         "notification_settings": {
@@ -36,7 +36,7 @@
           "notebook_path": "/Repos/jpedropuc@gmail.com/ProjetoMVPBancodeDados/Databricks/1. Bronze to Silver/FIDE - Players/bronze to silver - players root",
           "source": "WORKSPACE"
         },
-        "existing_cluster_id": "0613-232255-noxfkz06",
+        "existing_cluster_id": "-",
         "timeout_seconds": 0,
         "email_notifications": {},
         "notification_settings": {
@@ -61,7 +61,7 @@
           "notebook_path": "/Repos/jpedropuc@gmail.com/ProjetoMVPBancodeDados/Databricks/2. Silver to Gold/TWIC - Games/silver to gold - matchs common openings",
           "source": "WORKSPACE"
         },
-        "existing_cluster_id": "0613-232255-noxfkz06",
+        "existing_cluster_id": "-",
         "timeout_seconds": 0,
         "email_notifications": {},
         "notification_settings": {
@@ -83,7 +83,7 @@
           "notebook_path": "/Repos/jpedropuc@gmail.com/ProjetoMVPBancodeDados/Databricks/2. Silver to Gold/FIDE - Players/Mix/silver to gold - fed ranking evolution by time",
           "source": "WORKSPACE"
         },
-        "existing_cluster_id": "0613-232255-noxfkz06",
+        "existing_cluster_id": "-",
         "timeout_seconds": 0,
         "email_notifications": {},
         "notification_settings": {
@@ -105,7 +105,7 @@
           "notebook_path": "/Repos/jpedropuc@gmail.com/ProjetoMVPBancodeDados/Databricks/1. Bronze to Silver/FIDE - Players/bronze to silver - players current month",
           "source": "WORKSPACE"
         },
-        "existing_cluster_id": "0613-232255-noxfkz06",
+        "existing_cluster_id": "-",
         "timeout_seconds": 0,
         "email_notifications": {},
         "notification_settings": {
@@ -127,7 +127,7 @@
           "notebook_path": "/Repos/jpedropuc@gmail.com/ProjetoMVPBancodeDados/Databricks/2. Silver to Gold/FIDE - Players/Female_filter_base",
           "source": "WORKSPACE"
         },
-        "existing_cluster_id": "0613-232255-noxfkz06",
+        "existing_cluster_id": "-",
         "timeout_seconds": 0,
         "email_notifications": {},
         "notification_settings": {
@@ -149,7 +149,7 @@
           "notebook_path": "/Repos/jpedropuc@gmail.com/ProjetoMVPBancodeDados/Databricks/2. Silver to Gold/FIDE - Players/Female/silver to gold - WGM count avg. rating",
           "source": "WORKSPACE"
         },
-        "existing_cluster_id": "0613-232255-noxfkz06",
+        "existing_cluster_id": "-",
         "timeout_seconds": 0,
         "email_notifications": {},
         "notification_settings": {
@@ -171,7 +171,7 @@
           "notebook_path": "/Repos/jpedropuc@gmail.com/ProjetoMVPBancodeDados/Databricks/2. Silver to Gold/FIDE - Players/Female/silver to gold - fed avg. rating",
           "source": "WORKSPACE"
         },
-        "existing_cluster_id": "0613-232255-noxfkz06",
+        "existing_cluster_id": "-",
         "timeout_seconds": 0,
         "email_notifications": {},
         "notification_settings": {
@@ -193,7 +193,7 @@
           "notebook_path": "/Repos/jpedropuc@gmail.com/ProjetoMVPBancodeDados/Databricks/2. Silver to Gold/FIDE - Players/Female/silver to gold - >2300 rating count",
           "source": "WORKSPACE"
         },
-        "existing_cluster_id": "0613-232255-noxfkz06",
+        "existing_cluster_id": "-",
         "timeout_seconds": 0,
         "email_notifications": {},
         "notification_settings": {
@@ -215,7 +215,7 @@
           "notebook_path": "/Repos/jpedropuc@gmail.com/ProjetoMVPBancodeDados/Databricks/2. Silver to Gold/FIDE - Players/Female/silver to gold - <20 avg. rating",
           "source": "WORKSPACE"
         },
-        "existing_cluster_id": "0613-232255-noxfkz06",
+        "existing_cluster_id": "-",
         "timeout_seconds": 0,
         "email_notifications": {},
         "notification_settings": {
@@ -237,7 +237,7 @@
           "notebook_path": "/Repos/jpedropuc@gmail.com/ProjetoMVPBancodeDados/Databricks/2. Silver to Gold/FIDE - Players/Male_filter_base",
           "source": "WORKSPACE"
         },
-        "existing_cluster_id": "0613-232255-noxfkz06",
+        "existing_cluster_id": "-",
         "timeout_seconds": 0,
         "email_notifications": {},
         "notification_settings": {
@@ -259,7 +259,7 @@
           "notebook_path": "/Repos/jpedropuc@gmail.com/ProjetoMVPBancodeDados/Databricks/2. Silver to Gold/FIDE - Players/Male/silver to gold - count GM avg. rating",
           "source": "WORKSPACE"
         },
-        "existing_cluster_id": "0613-232255-noxfkz06",
+        "existing_cluster_id": "-",
         "timeout_seconds": 0,
         "email_notifications": {},
         "notification_settings": {
@@ -281,7 +281,7 @@
           "notebook_path": "/Repos/jpedropuc@gmail.com/ProjetoMVPBancodeDados/Databricks/2. Silver to Gold/FIDE - Players/Male/silver to gold - fed avg. rating",
           "source": "WORKSPACE"
         },
-        "existing_cluster_id": "0613-232255-noxfkz06",
+        "existing_cluster_id": "-",
         "timeout_seconds": 0,
         "email_notifications": {},
         "notification_settings": {
@@ -303,7 +303,7 @@
           "notebook_path": "/Repos/jpedropuc@gmail.com/ProjetoMVPBancodeDados/Databricks/2. Silver to Gold/FIDE - Players/Male/silver to gold - >2600 rating count",
           "source": "WORKSPACE"
         },
-        "existing_cluster_id": "0613-232255-noxfkz06",
+        "existing_cluster_id": "-",
         "timeout_seconds": 0,
         "email_notifications": {},
         "notification_settings": {
@@ -325,7 +325,7 @@
           "notebook_path": "/Repos/jpedropuc@gmail.com/ProjetoMVPBancodeDados/Databricks/2. Silver to Gold/FIDE - Players/Male/silver to gold - <20 avg. rating",
           "source": "WORKSPACE"
         },
-        "existing_cluster_id": "0613-232255-noxfkz06",
+        "existing_cluster_id": "-",
         "timeout_seconds": 0,
         "email_notifications": {},
         "notification_settings": {
