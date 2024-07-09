@@ -44,3 +44,5 @@ Looking at the [male](https://imgur.com/oLalrHg) and [female](https://imgur.com/
 Here is a [visualization of India's position](https://imgur.com/G1nl3Ts) evolution in the federations ranking, where the country has held its best historical position (second place) since February 2023. Here we can see the [notebook of the data cleaning and filtering](https://github.com/jpedrocf/ProjetoMVPBancodeDados/blob/main/Databricks/2.%20Silver%20to%20Gold/FIDE%20-%20Players/Mix/silver%20to%20gold%20-%20fed%20ranking%20evolution%20by%20time.ipynb)
 
 - **What are the most successful openings in Indian chess compared to the rest of the world?**
+
+When filtering for openings with over 100 wins to ensure a more reliable sample, and [comparing the average win percentage of the world versus India](https://imgur.com/xweIQlL), we find that out of 11 openings, India surpasses the global average in 7 of them. Here we can see the [notebook used to do the comparision, cleaning and filtering](https://github.com/jpedrocf/ProjetoMVPBancodeDados/blob/main/Databricks/2.%20Silver%20to%20Gold/TWIC%20-%20Games/silver%20to%20gold%20-%20matchs%20common%20openings.ipynb)
