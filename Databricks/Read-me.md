@@ -41,6 +41,6 @@ Looking at the [male](https://imgur.com/oLalrHg) and [female](https://imgur.com/
 
 - **Is there an evolution in Indian chess?**
 
-Here is a [visualization of India's position](https://imgur.com/G1nl3Ts) evolution in the federations ranking, where the country has held its best historical position (second place) since February 2023. Here we can see the [notebook of the data cleaning and filtering]()
+Here is a [visualization of India's position](https://imgur.com/G1nl3Ts) evolution in the federations ranking, where the country has held its best historical position (second place) since February 2023. Here we can see the [notebook of the data cleaning and filtering](https://github.com/jpedrocf/ProjetoMVPBancodeDados/blob/main/Databricks/2.%20Silver%20to%20Gold/FIDE%20-%20Players/Mix/silver%20to%20gold%20-%20fed%20ranking%20evolution%20by%20time.ipynb)
 
 - **What are the most successful openings in Indian chess compared to the rest of the world?**
