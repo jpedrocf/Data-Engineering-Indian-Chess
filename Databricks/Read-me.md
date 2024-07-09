@@ -38,7 +38,7 @@ Looking at highly ranked players with high ratings (female >2300 and male >2600)
 
 Looking at players with the title of [GM (male)](https://imgur.com/kKqGbYa) and [WGM (female)](https://imgur.com/ucmhk6k), we can observe that India is the third federation with the most GMs and WGMs (tied with Germany for WGMs), and it also has the highest average rating among the top 10 countries with the most active GMs. Here we can see the notebooks about each one [Male GM Count](https://github.com/jpedrocf/ProjetoMVPBancodeDados/blob/main/Databricks/2.%20Silver%20to%20Gold/FIDE%20-%20Players/Male/silver%20to%20gold%20-%20count%20GM%20avg.%20rating.py) and [Female WGM Count](https://github.com/jpedrocf/ProjetoMVPBancodeDados/blob/main/Databricks/2.%20Silver%20to%20Gold/FIDE%20-%20Players/Female/silver%20to%20gold%20-%20WGM%20count%20avg.%20rating.py)
 
-
+Looking at the [male](https://imgur.com/oLalrHg) and [female](https://imgur.com/TdzqdlN) federation rankings, following the FIDE criteria (average current rating of the top 10 active players per federation), we have India occupying the second position in both male and female categories. Here we can see the notebooks about each one [Federations Rank Male](https://github.com/jpedrocf/ProjetoMVPBancodeDados/blob/main/Databricks/2.%20Silver%20to%20Gold/FIDE%20-%20Players/Male/silver%20to%20gold%20-%20fed%20avg.%20rating.py) and [Federations Rank Female](https://github.com/jpedrocf/ProjetoMVPBancodeDados/blob/main/Databricks/2.%20Silver%20to%20Gold/FIDE%20-%20Players/Female/silver%20to%20gold%20-%20fed%20avg.%20rating.py)
 
 - **Is there an evolution in Indian chess?**
 
