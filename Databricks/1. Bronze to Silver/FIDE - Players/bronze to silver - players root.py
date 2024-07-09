@@ -80,31 +80,33 @@ display(players_df_updated.groupBy('rating_date').count())
 
 # COMMAND ----------
 
-from pyspark.sql.types import *
-from pyspark.sql.functions import *
-import datetime
-
-# COMMAND ----------
-
 players_df_updated.printSchema()
 
 # COMMAND ----------
 
 # MAGIC %md
-# MAGIC - Filtering and transforming data, focusing on converting columns to appropriate types and formatting dates for analysis or display
+# MAGIC - Filtering and transforming data, focusing on converting columns to appropriate types and formatting dates for analysis or display, checking the data quality of the fideid column, keeping only fideids >=6 and <=9
 
 # COMMAND ----------
 
-from pyspark.sql.functions import col, date_format
+from pyspark.sql.functions import col, to_date, length
 
 players_transform_type = players_df_updated.filter(col('fideid').isNotNull()) \
     .withColumn('fideid', col('fideid').cast('integer')) \
     .withColumn('rating_date', to_date(col('rating_date'), 'MMMyy')) \
     .withColumn('birthday', col('birthday').cast('integer')) \
-    .withColumn('rating', col('rating').cast('integer'))
+    .withColumn('rating', col('rating').cast('integer')) \
+    .withColumn('fideid_length', length(col('fideid').cast('string')))
 
-players_transform_type.printSchema()
+players_transform_type2 = players_transform_type.filter((col('fideid_length') >= 6) & (col('fideid_length') <= 9))
+
+players_transform_type = players_transform_type2.drop('fideid_length')
+
 display(players_transform_type)
+
+# COMMAND ----------
+
+display(players_transform_type.groupBy('fideid_length').count())
 
 # COMMAND ----------
 
