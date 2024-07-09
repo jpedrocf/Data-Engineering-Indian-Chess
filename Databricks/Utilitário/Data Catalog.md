@@ -3,7 +3,7 @@
 **bronze.players_complete Catalog**
 |Column Name|Type|Comment|
 |--|--|--|
-|fideid|int|A unique Federation ID of the player|
+|fideid|int|A unique Federation ID of the player (6 to 9 characters)|
 |name|string|Name of the player (last name, first name)|
 |country|string|Nationality code of the player, country (3 characters)|
 |sex|string|Sex of the player (M or F)|
@@ -43,8 +43,8 @@
 |eco|string|Encyclopedia of Chess Openings (ECO) code|
 |opening|string|Name of the opening played|
 |variation|string|Variation of the opening played|
-|white_fide_id|int|FIDE ID of the player with white pieces|
-|black_fide_id|int|FIDE ID of the player with black pieces|
+|white_fide_id|int|FIDE ID of the player with white pieces (6 to 9 characters)|
+|black_fide_id|int|FIDE ID of the player with black pieces (6 to 9 characters)|
 |event_date|date|Date when the event took place|
 |moves|string|Moves played in the game|
 
@@ -54,7 +54,7 @@
 |--|--|--|
 |date_id_pk|string|Combination of Date and ID for a unique ID|
 |rating_date|string|Date of the rating (MMM/yyyy)|
-|fideid|int|A unique Federation ID of the player|
+|fideid|int|A unique Federation ID of the player (6 to 9 characters)|
 |name|string|Name of the player (last name, first name)|
 |country|string|Nationality code of the player, country (3 characters)|
 |sex|string|Sex of the player (M or F)|
@@ -73,7 +73,7 @@
 |--|--|--|
 |date_id_pk|string|Combination of Date and ID for a unique ID|
 |rating_date|string|Current date of the rating (MMM/yyyy)|
-|fideid|int|A unique Federation ID of the player|
+|fideid|int|A unique Federation ID of the player (6 to 9 characters)|
 |name|string|Name of the player (last name, first name)|
 |country|string|Nationality code of the player, country (3 characters)|
 |sex|string|Sex of the player (M or F)|
@@ -92,7 +92,7 @@
 |--|--|--|
 |date_id_pk|string|Combination of Date and ID for a unique ID|
 |rating_date|string|Date of the rating (MMM/yyyy)|
-|fideid|int|A unique Federation ID of the player|
+|fideid|int|A unique Federation ID of the player (6 to 9 characters)|
 |name|string|Name of the player (last name, first name)|
 |country|string|Nationality code of the player, country (3 characters)|
 |sex|string|Sex of the player (F)|
@@ -110,7 +110,7 @@
 |--|--|--|
 |date_id_pk|string|Combination of Date and ID for a unique ID|
 |rating_date|string|Current date of the rating (MMM/yyyy)|
-|fideid|int|A unique Federation ID of the player|
+|fideid|int|A unique Federation ID of the player (6 to 9 characters)|
 |name|string|Name of the player (last name, first name)|
 |country|string|Nationality code of the player, country (3 characters)|
 |sex|string|Sex of the player (M or F)|
