@@ -23,4 +23,6 @@ At this point, I used Databricks notebooks to perform checks and cleanups, descr
 
 After performing the ETL process, I saved the created DataFrame in the Silver database, where I did more thorough column cleaning, data filtering, and table merging, to save it in the Gold database.
 
+After creating all the tables, I made a data catalog in markdown format, using SQL to comment on the tables.
+
 With the tables created in the Gold database, I built a presentation dashboard to answer the questions posed at the beginning of this MVP.
