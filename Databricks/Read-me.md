@@ -13,7 +13,7 @@ On the FIDE platform, I downloaded 113 files related to chess players for the pe
 
 The "The Week in Chess" platform provided me with recent championship data played by the best players in the world, containing information such as the name and location of the championship, date, round, player with white pieces, player with black pieces, result, title of the white player, title of the black player, ranking of the white player, ranking of the black player, opening played, FIDE ID of each player, and the date of the event.
 
-These data were processed by a [Python script that aggregated all the files saved in a internal folder into a single table](https://adb-1206727235395788.8.azuredatabricks.net/?o=1206727235395788#notebook/2485298635897647). I also added a unique identifier for each match.
+These data were processed by a [Python script that aggregated all the files saved in a internal folder into a single table](https://github.com/jpedrocf/ProjetoMVPBancodeDados/blob/main/Databricks/Utilit%C3%A1rio/Games%20Aggregator.py). I also added a unique identifier for each match.
 
 After merging the match and player files, I uploaded the tables to Databricks and placed them in internally created databases. The databases I created were Bronze, Silver, and Gold to use the layered data architecture (medallion).
 
