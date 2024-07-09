@@ -28,7 +28,7 @@ After creating all the tables, I made a [data catalog](https://github.com/jpedro
 
 With the tables created in the Gold database, I answer the questions posed at the beginning of this MVP.
 
-
+## Questions.
 
 - **Is India a chess powerhouse?**
 
