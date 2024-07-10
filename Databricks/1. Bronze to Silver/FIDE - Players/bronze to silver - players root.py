@@ -106,10 +106,6 @@ display(players_transform_type)
 
 # COMMAND ----------
 
-display(players_transform_type.groupBy('fideid_length').count())
-
-# COMMAND ----------
-
 # MAGIC %md
 # MAGIC - Changing the date format
 
@@ -124,7 +120,7 @@ display(players_transform_type)
 # COMMAND ----------
 
 # MAGIC %md
-# MAGIC - Checking the length of entries in the country and sex columns and excluding anomalies
+# MAGIC - Checking the length of entries in the country and sex columns, checking if the rating column have any entry over 9.999 and excluding anomalies
 
 # COMMAND ----------
 
@@ -148,6 +144,16 @@ else:
     players_errors = players_transform_type.filter(length('sex') != 1).count()
     print(f'There was {players_errors} errors.')
     
+
+# COMMAND ----------
+
+if players_transform_type.filter((col('rating') >9999)|(col('rating') <0)).isEmpty():
+    print('All rows checked, with no errors')
+
+else:
+    players_transform_type = players_transform_type.filter((col('rating') <9999 & (col('rating') >0)))
+    players_errors = players_transform_type.filter((col('rating') >9999)|(col('rating') <0)).count()
+    print(f'There was {players_errors} errors.')
 
 # COMMAND ----------
 
