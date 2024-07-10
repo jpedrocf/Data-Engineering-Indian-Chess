@@ -11,7 +11,7 @@
 |w_title|string|Title of the player (duplicated for women, a column to be removed during the ETL process)|
 |o_title|string|Other titles of a player (IA - International Arbiter, FA - FIDE Arbiter, NA - National Arbiter, IO - International Organizer, FT - FIDE Trainer, FST - FIDE Senior Trainer, DI - Developmental Instructor, NI - National Instructor)|
 |foa_title|string|FOA title of the player (a column to be removed during the ETL process)|
-|rating|int|Standard rating of the player|
+|rating|int|Standard rating of the player (Min - 0, Max - 9999)|
 |games|int|Number of standard non-online FIDE games played (a column to be removed during the ETL process)|
 |k|double|K-factor for rating calculations (a column to be removed during the ETL process)|
 |rapid_rating|int|Rapid rating of the player (a column to be removed during the ETL process)|
@@ -36,10 +36,10 @@
 |white|string|Name of the player with white pieces|
 |black|string|Name of the player with black pieces|
 |result|string|Result of the game (1-0 = white wins, 1/2 - 1/2 = draw, 0-1 = black wins)|
-|white_title|string|Title of the player with white pieces|
-|black_title|string|Title of the player with black pieces|
-|white_elo|int|ELO rating of the player with white pieces|
-|black_elo|int|ELO rating of the player with black pieces|
+|white_title|string|Title of the player with white pieces (GM - Grand Master, WGM - Woman Grand Master, IM - International Master, WIM - Woman International Master, FM - FIDE Master, WFM - Woman FIDE Master, CM - Candidate Master, WCM - Woman Candidate Master)|
+|black_title|string|Title of the player with black pieces (GM - Grand Master, WGM - Woman Grand Master, IM - International Master, WIM - Woman International Master, FM - FIDE Master, WFM - Woman FIDE Master, CM - Candidate Master, WCM - Woman Candidate Master)|
+|white_elo|int|ELO rating of the player with white pieces (Min - 0, Max - 9999)|
+|black_elo|int|ELO rating of the player with black pieces (Min - 0, Max - 9999)|
 |eco|string|Encyclopedia of Chess Openings (ECO) code|
 |opening|string|Name of the opening played|
 |variation|string|Variation of the opening played|
@@ -61,7 +61,7 @@
 |title|string|Official title of the player (GM - Grand Master, WGM - Woman Grand Master, IM - International Master, WIM - Woman International Master, FM - FIDE Master, WFM - Woman FIDE Master, CM - Candidate Master, WCM - Woman Candidate Master)|
 |o_title|string|Other titles of a player (IA - International Arbiter, FA - FIDE Arbiter, NA - National Arbiter, IO - International Organizer, FT - FIDE Trainer, FST - FIDE Senior Trainer, DI - Developmental Instructor, NI - National Instructor)|
 |foa_title|string|FOA title of the player|
-|rating|int|Standard rating of the player|
+|rating|int|Standard rating of the player (Min - 0, Max - 9999)|
 |birthday|int|Year of birth of the player|
 |flag|string|Flag of inactivity (I - inactive, WI - woman inactive, w - woman)|
 |file_name|string|Name of the file from which data was collected|
@@ -80,7 +80,7 @@
 |title|string|Official title of the player (GM - Grand Master, WGM - Woman Grand Master, IM - International Master, WIM - Woman International Master, FM - FIDE Master, WFM - Woman FIDE Master, CM - Candidate Master, WCM - Woman Candidate Master)|
 |o_title|string|Other titles of a player (IA - International Arbiter, FA - FIDE Arbiter, NA - National Arbiter, IO - International Organizer, FT - FIDE Trainer, FST - FIDE Senior Trainer, DI - Developmental Instructor, NI - National Instructor)|
 |foa_title|string|FOA title of the player|
-|rating|int|Standard rating of the player|
+|rating|int|Standard rating of the player (Min - 0, Max - 9999)|
 |birthday|int|Year of birth of the player|
 |flag|string|Flag of inactivity (I - inactive, WI - woman inactive, w - woman)|
 |file_name|string|Name of the file from which data was collected|
@@ -99,7 +99,7 @@
 |title|string|Official title of the player (WGM - Woman Grand Master, WIM - Woman International Master, WFM - Woman FIDE Master, WCM - Woman Candidate Master)|
 |o_title|string|Other titles of a player (IA - International Arbiter, FA - FIDE Arbiter, NA - National Arbiter, IO - International Organizer, FT - FIDE Trainer, FST - FIDE Senior Trainer, DI - Developmental Instructor, NI - National Instructor)|
 |foa_title|string|FOA title of the player|
-|rating|int|Standard rating of the player|
+|rating|int|Standard rating of the player (Min - 0, Max - 9999)|
 |birthday|int|Year of birth of the player|
 |flag|string|Flag of inactivity (WI - woman inactive, w - woman)|
 |file_name|string|Name of the file from which data was collected|
@@ -117,7 +117,7 @@
 |title|string|Official title of the player (GM - Grand Master, IM - International Master, FM - FIDE Master, CM - Candidate Master)|
 |o_title|string|Other titles of a player (IA - International Arbiter, FA - FIDE Arbiter, NA - National Arbiter, IO - International Organizer, FT - FIDE Trainer, FST - FIDE Senior Trainer, DI - Developmental Instructor, NI - National Instructor)|
 |foa_title|string|FOA title of the player|
-|rating|int|Standard rating of the player|
+|rating|int|Standard rating of the player (Min - 0, Max - 9999)|
 |birthday|int|Year of birth of the player|
 |flag|string|Flag of inactivity (I - inactive)|
 |file_name|string|Name of the file from which data was collected|
