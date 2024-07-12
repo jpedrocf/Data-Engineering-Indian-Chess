@@ -39,4 +39,3 @@ flowchart TD
     style R color:#FFFFFF, fill:#FFD700, stroke:#FF6D00,stroke:#FFFFFF
     style S color:#FFFFFF, fill:#FFD700, stroke:#FF6D00,stroke:#FFFFFF
     style T color:#FFFFFF, fill:#FFD700, stroke:#FF6D00,stroke:#FFFFFF
-    style W color:#FFFFFF, fill:#4169E1, stroke:#FF6D00,stroke:#FFFFFF
