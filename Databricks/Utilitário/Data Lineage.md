@@ -1,3 +1,5 @@
+```mermaid
+
 flowchart TD
 
     A[["<a rel="noopener" href="https://ratings.fide.com/download_lists.phtml" target="_blank">FIDE DB</a>"]] -- Python Script --> C[("Databricks DB")]
