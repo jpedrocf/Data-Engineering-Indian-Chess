@@ -23,9 +23,7 @@ At this point, I used Databricks notebooks to perform checks and cleanups, descr
 
 After performing the ETL process, I saved the created DataFrame in the Silver database, where I did more thorough column cleaning, data filtering, and table merging, to save it in the Gold database.
 
-After creating all the tables, I made a [data catalog](https://github.com/jpedrocf/ProjetoMVPBancodeDados/blob/main/Databricks/Utilit%C3%A1rio/Data%20Catalog.md) in markdown format, using SQL to comment on the tables and also did a [Pipeline](https://imgur.com/BocNZzN) (also in [JSON version](https://github.com/jpedrocf/ProjetoMVPBancodeDados/blob/main/Databricks/Utilit%C3%A1rio/Pipeline%20-%20JSON.json)) to automatic update all tables, everytime i input new data.
-
-[Data Lineage](https://github.com/jpedrocf/ProjetoMVPBancodeDados/blob/main/Databricks/Utilit%C3%A1rio/Data%20Lineage.md)
+After creating all the tables, I made a [data catalog](https://github.com/jpedrocf/ProjetoMVPBancodeDados/blob/main/Databricks/Utilit%C3%A1rio/Data%20Catalog.md) in markdown format, using SQL to comment on the tables and also did a [Pipeline](https://imgur.com/BocNZzN) (also in [JSON version](https://github.com/jpedrocf/ProjetoMVPBancodeDados/blob/main/Databricks/Utilit%C3%A1rio/Pipeline%20-%20JSON.json)) to automatic update all tables, everytime i input new data. I also conducted a [Data Lineage](https://github.com/jpedrocf/ProjetoMVPBancodeDados/blob/main/Databricks/Utilit%C3%A1rio/Data%20Lineage.md) analysis after these processes to track and document the flow of data through the various stages. This was done to ensure data integrity, facilitate debugging and auditing, and provide a clear understanding of how data transforms. 
 
 
 ## Questions
