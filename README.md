@@ -17,7 +17,7 @@ These data were processed by a [Python script that aggregated all the files save
 
 After merging the match and player files, I uploaded the tables to Databricks and placed them in internally [created schemas](https://github.com/jpedrocf/ProjetoMVPBancodeDados/blob/main/Databricks/Utilit%C3%A1rio/create%20schema.py). The schemas I created were Bronze, Silver, and Gold to use the layered data architecture (medallion).
 
-Both the matches and the players were placed in the Bronze schema to go through the ETL process.
+Both the [matches](https://github.com/jpedrocf/ProjetoMVPBancodeDados/blob/main/Presentation/1.Bronze%20to%20Silver/TWIC%20-%20Games/bronze%20to%20silver%20-%20games%20root.ipynb) and the [players](https://github.com/jpedrocf/ProjetoMVPBancodeDados/blob/main/Presentation/1.Bronze%20to%20Silver/FIDE%20-%20Players/bronze%20to%20silver%20-%20players%20root.ipynb) were placed in the Bronze schema to go through the ETL process.
 
 At this point, I used Databricks notebooks to perform checks and cleanups, describing the step-by-step process in each of them.
 
