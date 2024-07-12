@@ -58,7 +58,7 @@ Additionally, the process of data cleaning and filtering, as demonstrated in the
 
 - **What are the most successful openings in Indian chess compared to the rest of the world?**
 
-When filtering for openings with over 100 wins to ensure a more reliable sample, and [comparing the average win percentage of the world versus India](https://imgur.com/xweIQlL), we find that out of 11 openings, India surpasses the global average in 7 of them. Here we can see the [notebook used to do the comparision, cleaning and filtering](https://github.com/jpedrocf/ProjetoMVPBancodeDados/blob/main/Presentation/2.%20Silver%20to%20Gold/TWIC%20-%20Games/silver%20to%20gold%20-%20matchs%20common%20openings.ipynb)
+When filtering for openings with over 100 wins to ensure a more reliable sample, and [comparing the average win percentage of the world versus India](https://imgur.com/xweIQlL), we find that out of 11 openings, India surpasses the global average in 7 of them. Based on the analysis, we can conclude that Indian chess players demonstrate a higher success rate in certain openings compared to the global average. Here we can see the [notebook used to do the comparision, cleaning and filtering](https://github.com/jpedrocf/ProjetoMVPBancodeDados/blob/main/Presentation/2.%20Silver%20to%20Gold/TWIC%20-%20Games/silver%20to%20gold%20-%20matchs%20common%20openings.ipynb)
 
 ## Conclusion
 
