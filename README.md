@@ -1,4 +1,4 @@
-# **MVP Project**
+# **Evolution of Modern Indian Chess**
 ## 
 ## Introduction
 This study focuses on examining the evolution of chess in India, aiming to provide a comprehensive overview of its development and current status. Over the years, India has produced numerous skilled chess players (Anand, Praggnanandhaa, Gukesh, Erigaisi Arjun, Koneru, Divya and many others), contributing significantly to the global chess community. This research will delve into the historical progression and contemporary advancements of chess in India, highlighting key milestones.
